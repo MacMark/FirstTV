@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A236D91E79A527007A2391 /* Images.json in Resources */ = {isa = PBXBuildFile; fileRef = 28A236D81E79A527007A2391 /* Images.json */; };
+		28A236DB1E79A57F007A2391 /* Shelf.js in Resources */ = {isa = PBXBuildFile; fileRef = 28A236DA1E79A57F007A2391 /* Shelf.js */; };
+		28A236E61E79A967007A2391 /* IMG_1174.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A236E31E79A967007A2391 /* IMG_1174.jpg */; };
+		28A236E71E79A967007A2391 /* IMG_1175.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A236E41E79A967007A2391 /* IMG_1175.jpg */; };
+		28A236E81E79A967007A2391 /* IMG_1176.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A236E51E79A967007A2391 /* IMG_1176.jpg */; };
 		28C877B21E76B7C300945B8B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 28C877B11E76B7C300945B8B /* README.md */; };
 		A2A55FF71E71AC7A006EABE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A55FF61E71AC7A006EABE8 /* AppDelegate.swift */; };
 		A2A55FFB1E71AC7A006EABE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A55FFA1E71AC7A006EABE8 /* Assets.xcassets */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28A236D81E79A527007A2391 /* Images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Images.json; sourceTree = "<group>"; };
+		28A236DA1E79A57F007A2391 /* Shelf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Shelf.js; sourceTree = "<group>"; };
+		28A236E31E79A967007A2391 /* IMG_1174.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1174.jpg; sourceTree = "<group>"; };
+		28A236E41E79A967007A2391 /* IMG_1175.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1175.jpg; sourceTree = "<group>"; };
+		28A236E51E79A967007A2391 /* IMG_1176.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1176.jpg; sourceTree = "<group>"; };
 		28C877B11E76B7C300945B8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A2A55FF31E71AC7A006EABE8 /* FirstTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A55FF61E71AC7A006EABE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A236DC1E79A685007A2391 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				28A236E31E79A967007A2391 /* IMG_1174.jpg */,
+				28A236E41E79A967007A2391 /* IMG_1175.jpg */,
+				28A236E51E79A967007A2391 /* IMG_1176.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		A2A55FEA1E71AC7A006EABE8 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +98,13 @@
 			isa = PBXGroup;
 			children = (
 				A2A55FF91E71AC7A006EABE8 /* application.js */,
+				28A236DC1E79A685007A2391 /* images */,
+				28A236D81E79A527007A2391 /* Images.json */,
 				A2A560051E71BAB4006EABE8 /* HelloWorld.js */,
 				A2A5600A1E71BDA7006EABE8 /* HelloWorldRequestLoading.js */,
 				A2A560101E71C08C006EABE8 /* Navigation.js */,
 				A2A560121E71C94E006EABE8 /* Navigation2.js */,
+				28A236DA1E79A57F007A2391 /* Shelf.js */,
 				A2A560071E71BCD6006EABE8 /* templates */,
 			);
 			name = "Supporting Files";
@@ -157,9 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A560061E71BAB4006EABE8 /* HelloWorld.js in Resources */,
+				28A236E71E79A967007A2391 /* IMG_1175.jpg in Resources */,
+				28A236E61E79A967007A2391 /* IMG_1174.jpg in Resources */,
 				A2A5600B1E71BDA7006EABE8 /* HelloWorldRequestLoading.js in Resources */,
 				A2A560111E71C08C006EABE8 /* Navigation.js in Resources */,
+				28A236DB1E79A57F007A2391 /* Shelf.js in Resources */,
+				28A236E81E79A967007A2391 /* IMG_1176.jpg in Resources */,
 				A2A560131E71C94E006EABE8 /* Navigation2.js in Resources */,
+				28A236D91E79A527007A2391 /* Images.json in Resources */,
 				A2A560091E71BD3C006EABE8 /* HelloWorld.xml in Resources */,
 				A2A5600D1E71C014006EABE8 /* PageNavigation.xml in Resources */,
 				A2A55FFB1E71AC7A006EABE8 /* Assets.xcassets in Resources */,
